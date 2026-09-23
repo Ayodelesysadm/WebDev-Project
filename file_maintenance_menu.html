@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Maintenance Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        main {
+            padding: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .menu-list {
+            list-style: none;
+        }
+
+        .menu-list li {
+            margin-bottom: 15px;
+        }
+
+        .menu-list a {
+            display: block;
+            padding: 20px 30px;
+            background: #f5f7fa;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            transition: all 0.3s;
+            border-left: 5px solid #667eea;
+        }
+
+        .menu-list a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(10px);
+        }
+
+        .back-btn {
+            display: block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #666;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>File Maintenance Menu</h1>
+        </header>
+        
+        <main>
+            <h2>Select an Option</h2>
+
+            <ul class="menu-list">
+                <li><a href="../student1/staff_menu.html">Staff Maintenance Menu</a></li>
+                <li><a href="../Student2/stock_menu.html">Stock Maintenance Menu</a></li>
+                <li><a href="../Student3/guest_maintenance_menu.html">Guest Maintenance Menu</a></li>
+                <li><a href="room_maintenance_menu.html">Room Maintenance Menu</a></li>
+            </ul>
+
+            <a href="main_menu.html" class="back-btn">⬅️ Back to Main Menu</a>
+        </main>
+
+    </div>
+</body>
+</html>
